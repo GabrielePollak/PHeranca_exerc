@@ -31,7 +31,7 @@ namespace PHeranca_exerc
             Aluno aluno= new Aluno(datamatric, registro, nome, data, cpf);
             Console.WriteLine(aluno.ToString());
 
-            Console.WriteLine("Informe nome: ");
+            Console.WriteLine("Informe o nome do funcionario: ");
             nome = Console.ReadLine();
             Console.WriteLine("Informe data de nascimento: ");
             data = DateTime.Parse(Console.ReadLine());
